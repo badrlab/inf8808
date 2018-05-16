@@ -1,0 +1,65 @@
+/***** General style *****/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.titleBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  background-color: #333;
+}
+
+.titleBox h1{
+    color: #fff;
+}
+
+.panel {
+  position: absolute;
+  top: 105px;
+  right: 0;
+  bottom: 0;
+  left: 25px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.panel svg{
+    width: 100%;
+    height: 100%;
+}
+
+.panel p{
+    text-align: justify;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+}
+
+.panel p.centered{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    text-align: justify;
+}
+
+.graphRef{
+    color: #888;
+    
+}
+
+/***** Side Style *****/
+.graphSide{
+    position: absolute;
+    width: 68%;
+    height: 100%;
+}
+.storySide{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 0px;
+}
